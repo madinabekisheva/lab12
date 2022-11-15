@@ -73,12 +73,13 @@ ul1.appendChild(li6);
 
 console.log(ul1)
 let p3 = document.createElement("p1")
-p3.innerHTML = "Basic necessary code can be found in the supplementary materials to the Lecture 12 via this 
+p3.innerHTML = "Basic necessary code can be found in the supplementary materials to the Lecture 12 via this"; 
+document.body.appendChild(p3)
 
 let a1 = document.createElement("a");
 a1.setAttribute("href", "https://github.com/yessen/nu_web_programming/tree/main/week12");
-a1.innerText = "link.";"
-document.body.appendChild(p3);
+a1.innerText = "link.";
+
 
 let myhr1 = document.createElement("hr")
 console.log(myhr1)
